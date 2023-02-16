@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,700&family=Kaisei+Opti:wght@400;500;700&family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@200;300;400;500&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+.homepage-wrapper {
+  height: 100vh;
+}
+
+.content-area {
+  color: rgb(240 248 255);
+  position: relative;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)),
+    url(https://images.unsplash.com/photo-1629938691593-14253a41cf1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+  background-size: cover;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3rem;
+  color: rgb(221 221 221);
+}
+
+.content h1,
+p {
+  font-family: 'Merriweather', serif;
+}
+
+.content p {
+  color: rgb(238 238 238 / 75%);
+  font-size: smaller;
+  font-weight: 200;
+}
+
+.content button {
+  border: none;
+  outline: none;
+  padding: 15px;
+  margin: 1rem 0 1.5rem;
+  border-radius: 4px;
+  color: #eee;
+  font-size: 18px;
+  background: rgb(60 59 56);
+  box-shadow: 0px 2.5px 10px 0.7px rgb(121 121 121 / 50%);
+}
+
+.title-span {
+  color: rgb(186 168 17);
+  font-family: 'Kaisei Opti', serif;
+}
+.span {
+  font-family: 'Kaisei Opti', serif;
+  color: rgb(186 168 17);
+  font-weight: 600;
+  font-size: 3.25rem;
+}
